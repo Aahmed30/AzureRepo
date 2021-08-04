@@ -1037,17 +1037,3 @@ where Year(sale_date) = 2013
 and invoice_id = '12969'
 12408.74
 
------------------------------------------------------------
-Pick Random Wax Pass Invoice event pkg_redump
-
-select sum(revrec_value) as Revenue_Amt
-from RevRec_Unlimited_Pass
-where Year(Sale_date) = 2013
-and transaction_id = '12969'
-389.7600000000004
-
-select sum(netsales_price) as revenue
-from Events_Package_Redemptions
-where Year(sale_date) = 2013
-and invoice_id = '12969'
-12408.74
