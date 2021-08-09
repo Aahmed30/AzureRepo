@@ -867,9 +867,5 @@ SELECT SUM(t.Revenue_Amt) AS Total_Revenue_Amt
 			where 
 			-- month(sales_date) = 11 and 
 			Year(sales_date) = 2021) t
-			
-
 
 ===================================================
-
-
